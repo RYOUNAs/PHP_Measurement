@@ -1,0 +1,93 @@
+html {
+  width: 940px;
+  margin: 0 auto;
+}
+.img {
+  width: 200px;
+  height: 150px;
+}
+img {
+  object-fit: contain;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  padding: 0;
+  width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 15px -6px #00000073;
+}
+
+table tr {
+  background-color: #fff;
+}
+
+table th,
+table td {
+  border-bottom: 1px solid #eee;
+}
+
+table th {
+  width: 740px;
+  padding: 10px 0;
+  font-size: 14px;
+  padding: 15px;
+  background-color: #ffc107;
+  color: #fff;
+}
+
+.tb-img {
+  width: 200px;
+  height: 150px;
+}
+
+table tr {
+  text-align: center;
+  width: 20%;
+  padding: 20px 0;
+  background-color: #fff;
+  color: #3a3a3a;
+}
+
+table tr:hover {
+  background-color: #d4faff;
+}
+
+.fileinput {
+  border: 3px solid;
+  display: inline-block;
+  padding: 2px 1em;
+  position: relative;
+}
+.fileinput input[type="file"] {
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.button {
+  display: inline-block;
+  border-radius: 5%; /* 角丸       */
+  font-size: 18pt; /* 文字サイズ */
+  text-align: center; /* 文字位置   */
+  cursor: pointer; /* カーソル   */
+  padding: 12px 12px; /* 余白       */
+  background: #990000; /* 背景色     */
+  color: #ffffff; /* 文字色     */
+  line-height: 1em; /* 1行の高さ  */
+  opacity: 1; /* 透明度     */
+  transition: 0.3s; /* なめらか変化 */
+  box-shadow: 10px 10px 11px #666666; /* 影の設定 */
+}
+.button:hover {
+  box-shadow: none; /* カーソル時の影消去 */
+  opacity: 0.8; /* カーソル時透明度 */
+}
+
+.error {
+  color: red;
+}
